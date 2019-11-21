@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/maxchehab/.volta/tools/image/node/10.16.3/6.9.0/bin/node /Users/maxchehab/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/maxchehab/.volta/tools/image/node/10.16.3/6.9.0/bin:/Users/maxchehab/.volta/tools/image/yarn/1.17.3/bin:/Users/maxchehab/.yarn/bin:/Users/maxchehab/.config/yarn/global/node_modules/.bin:/Users/maxchehab/.wasmer/bin:/Users/maxchehab/.wasmer/globals/wapm_packages/.bin:/Users/maxchehab/.nvm/versions/node/v10.16.2/bin:/Users/maxchehab/.autojump/bin:/Users/maxchehab/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Users/maxchehab/projects/golang/bin:/usr/local/go//bin:/Applications:/Users/maxchehab/.cargo/bin:/usr/local/lib/node_modules
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/with-blog: Not found
+      at Request.params.callback [as _callback] (/Users/maxchehab/.yarn/lib/cli.js:66926:18)
+      at Request.self.callback (/Users/maxchehab/.yarn/lib/cli.js:140564:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/Users/maxchehab/.yarn/lib/cli.js:141536:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/Users/maxchehab/.yarn/lib/cli.js:141458:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "www",
+    "version": "1.0.0",
+    "description": "https://github.com/maxchehab/with-blog/examples/simple-blog",
+    "main": "index.js",
+    "repository": "https://github.com/maxchehab/with-blog/examples/simple-blog",
+    "author": "maxchehab <maxchehab@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start",
+      "export": "yarn run build && next export"
+    },
+    "dependencies": {
+      "next": "9.1.4",
+      "react": "16.12.0",
+      "react-dom": "16.12.0",
+      "with-blog": "0.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

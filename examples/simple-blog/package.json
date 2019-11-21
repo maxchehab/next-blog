@@ -1,0 +1,22 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "https://github.com/maxchehab/with-blog/examples/simple-blog",
+  "main": "index.js",
+  "repository": "https://github.com/maxchehab/with-blog/examples/simple-blog",
+  "author": "maxchehab <maxchehab@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn run build && next export"
+  },
+  "dependencies": {
+    "next": "9.1.4",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "with-blog": "file:../../"
+  }
+}

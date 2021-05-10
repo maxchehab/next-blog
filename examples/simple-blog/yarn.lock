@@ -3064,9 +3064,9 @@ lodash.templatesettings@^4.0.0:
     lodash._reinterpolate "^3.0.0"
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -5488,8 +5488,10 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2 || 2"
 
-"with-blog@file:../..":
+with-blog@^0.0.0:
   version "0.0.0"
+  resolved "https://registry.yarnpkg.com/with-blog/-/with-blog-0.0.0.tgz#c22f2ed7312eb0f59d3c9b41c376ea9885689ff4"
+  integrity sha512-qMCP0SiCDj97kHhnZL5Kj7vczZlHQ0BnBe1tSYjioQkWw+8kEfPInT7/+7Piy70JuafLdaqZN3MOCp3z17SMjA==
   dependencies:
     frontmatter-markdown-loader "3.1.0"
 

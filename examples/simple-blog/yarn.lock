@@ -1922,9 +1922,9 @@ debug@^4.1.0:
     ms "^2.1.1"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-extend@^0.6.0:
   version "0.6.0"
@@ -5488,8 +5488,10 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2 || 2"
 
-"with-blog@file:../..":
+with-blog@^0.0.0:
   version "0.0.0"
+  resolved "https://registry.yarnpkg.com/with-blog/-/with-blog-0.0.0.tgz#c22f2ed7312eb0f59d3c9b41c376ea9885689ff4"
+  integrity sha512-qMCP0SiCDj97kHhnZL5Kj7vczZlHQ0BnBe1tSYjioQkWw+8kEfPInT7/+7Piy70JuafLdaqZN3MOCp3z17SMjA==
   dependencies:
     frontmatter-markdown-loader "3.1.0"
 
